@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Колесо удачи</title>
+  <!-- используем всю ширину экрана -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- подключаем стили -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bet.css">
+
+</head>
+<body>
+<!-- главный блок -->
+<div class="deal-wheel">
+  <!-- блок с призами -->
+  <ul class="spinner"></ul>
+  <!-- язычок барабана -->
+  <div class="ticker"></div>
+  <!-- кнопка -->
+  <button class="btn-spin">Испытай удачу</button>
+  
+</div>
+  <!-- подключаем скрипт -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script  src="script.js"></script>
+  <h1 id="balance">Привет</h1>
+  <script  src="script2.js"></script>
+
+  
+	<input type="number" id = "inputbet" required class="search-box" placeholder="YOUR BET..." />
+    <div class="playbtn">
+    <button id="btn-red" onclick="bred()">RED</button>
+    <button id="btn-green" onclick="bgreen()">GREEN</button>
+    <button id="btn-black" onclick="bblack()">BLACK</button>
+    </div>	
+	
+</div>
+
+</body>
+</html>
